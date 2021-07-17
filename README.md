@@ -16,6 +16,8 @@ Include the header and go.
     git clone ...
 ```
 
+Here's a real small example:
+
 ```cpp
 #include <iostream>
 #include <string>
