@@ -20,6 +20,10 @@ class Option {
         }
     }
 
+    // todo(feature): implement and_then, which measured in TMP is *light years more cumbersome* to implement due to the
+    // incredibly bad TMP features that exist in C++. I mean C++ still can't deduce the most simplistic return types of lambdas for instance, without having to clutter up
+    // everything with long <type, type, type, type> stuff everywhere. Boo, c++. Boo. Rust is gaining on you.
+
     constexpr auto value() {
         return m_opt.value();
     }
