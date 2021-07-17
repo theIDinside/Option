@@ -13,7 +13,7 @@ Right now it's not using any of the best practicies, not in the C++ code, nor or
 Include the header and go.
 
 ```bash
-    git clone ...
+    git clone https://github.com/theIDinside/Option.git
 ```
 
 Here's a real small example:
